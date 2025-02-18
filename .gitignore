@@ -18,6 +18,8 @@ DerivedData/
 
 # App specific
 ScreenSwapper.app/
+*.dmg
+pack.temp.dmg
 
 # macOS
 .DS_Store
