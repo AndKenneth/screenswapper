@@ -64,7 +64,7 @@ class StatusBarController {
     }
 
     private func isStartAtLoginEnabled() -> Bool {
-        if let bundleId = Bundle.main.bundleIdentifier {
+        if Bundle.main.bundleIdentifier != nil {
             return SMAppService.mainApp.status == .enabled
         }
         return false
