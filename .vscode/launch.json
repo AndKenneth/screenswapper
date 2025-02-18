@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:screenswapper}/ScreenSwapper",
+            "name": "Debug ScreenSwapper (ScreenSwapper)",
+            "program": "${workspaceFolder:screenswapper}/ScreenSwapper/.build/debug/ScreenSwapper",
+            "preLaunchTask": "swift: Build Debug ScreenSwapper (ScreenSwapper)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:screenswapper}/ScreenSwapper",
+            "name": "Release ScreenSwapper (ScreenSwapper)",
+            "program": "${workspaceFolder:screenswapper}/ScreenSwapper/.build/release/ScreenSwapper",
+            "preLaunchTask": "swift: Build Release ScreenSwapper (ScreenSwapper)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:screenswapper}",
+            "name": "Debug ScreenSwapper",
+            "program": "${workspaceFolder:screenswapper}/.build/debug/ScreenSwapper",
+            "preLaunchTask": "swift: Build Debug ScreenSwapper"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:screenswapper}",
+            "name": "Release ScreenSwapper",
+            "program": "${workspaceFolder:screenswapper}/.build/release/ScreenSwapper",
+            "preLaunchTask": "swift: Build Release ScreenSwapper"
+        }
+    ]
+}
