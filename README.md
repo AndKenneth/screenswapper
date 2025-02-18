@@ -2,6 +2,14 @@
 
 A macOS menu bar app for saving and switching between different screen configurations.
 
+## Why I Built This
+
+I created ScreenSwapper to solve a frustration with my dual-monitor setup. I have two monitors of the exact same model, but I position my laptop differently when I'm working from home versus at the office. Every time I would switch locations, I had to manually reconfigure my screen layout in System Settings.
+
+ScreenSwapper allows me to save these different configurations and quickly switch between them with just a click from the menu bar. No more diving into System Settings every time I change locations - just click and get back to work.
+
+I built this for myself, but please let me know if you find it useful.
+
 ## Features
 
 - Save current screen layout configurations
